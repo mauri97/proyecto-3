@@ -91,7 +91,8 @@
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 100px;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  padding: 100px 0 140px;
 }
 
 .staff__title {
@@ -114,11 +115,11 @@
 }
 .staff__cards {
   max-width: 760px;
-  margin: 0 auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0;
+  justify-content: center;
+  gap: 40px;
   list-style-type: none;
   padding-left: 0;
 }
